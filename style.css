@@ -14,7 +14,7 @@ p {
 .banner {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,28 @@ p {
 }
 
 .banner .content h2 {
+    font-size: 5em;
+    color: #fff;
+    text-shadow: #111;
+}
+
+.banner2 {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://www.dropbox.com/s/79grnw9at3a4gqm/iceland.jpg?raw=1");
+    background-size: cover;
+}
+
+.banner2 .content {
+    max-width: 900px;
+    text-align: center;
+}
+
+.banner2 .content h2 {
     font-size: 5em;
     color: #fff;
     text-shadow: #111;
