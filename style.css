@@ -11,11 +11,16 @@ p {
     color: #111;
 }
 
+#horseP {
+    width: 80%;
+}
+
 .bannerText {
     color: #fff;
     text-shadow: 1px 1px #111;
 }
 
+/* vh is viewport height */ 
 .banner {
     position: relative;
     width: 100%;
